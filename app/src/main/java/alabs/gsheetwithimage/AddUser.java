@@ -104,7 +104,7 @@ public class AddUser extends AppCompatActivity implements View.OnClickListener {
         if (editTextUserId.getText().toString().isEmpty()) {
             editTextUserId.setError("tidak bisa kosong");
         } else if (editTextUserName.getText().toString().isEmpty()) {
-            editTextUserId.setError("tidak bisa kosong");
+            editTextUserName.setError("tidak bisa kosong");
         } else
             {
             final ProgressDialog loading = ProgressDialog.show(this, "Uploading...", "Please wait...", false, false);
