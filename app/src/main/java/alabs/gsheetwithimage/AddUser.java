@@ -1,8 +1,6 @@
 package alabs.gsheetwithimage;
 
-/**
- * Created by ADJ on 8/7/2017.
- */
+
 
 
 import android.app.ProgressDialog;
